@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito+Sans:wght@200&display=swap');
+* {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.topheader {
+    background-color: #252F3E;
+    color: white
+}
+.icon {
+    background-color: rgb(87, 142, 225);
+    color: white;
+    width: 120px;
+    font-size: 13px;
+}
+.anim {
+    color: white;
+    width: 1125px;
+    font-size: 13px;
+}
+
+ul {
+    background-color: rgb(215, 221, 215);
+    margin-top: 10px;
+    height: 38px;
+    align-items: flex-end;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#logo {
+    padding-top: 10px;
+    width: 70px;
+}
+header ul li a.l1,
+header ul li a:hover {
+    background: #252F3E;
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+
+li {
+    align-items: flex-end;
+    padding: 10px;
+    display: inline;
+}
+header ul li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 1px;
+    display: inline-block;
+    padding: 8px 18px;
+    text-decoration: none;
+    user-select: none;
+}
+.slider {
+    /*color: red;*/
+    height: 500px;
+    background-image: url("https://st.indiarailinfo.com/kjfdsuiemjvcya22/0/6/7/3/4053673/0/20180707113903img62920101018727913.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.login {
+    margin-right: 600px;
+}
+#in1 {
+    width: 90px;
+}
+.loginb {
+    background-color: rgb(87, 142, 225);
+    padding: 8px;
+    border-radius: 30px;
+}
+.loginb a {
+    text-decoration: none;
+    color: white;
+}
+.skip {
+    background-color: rgb(87, 142, 225);
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+
+}
+.skip a {
+    color: white;
+    text-decoration: none;
+}
+#book {
+    background-color:rgb(237, 237, 239);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-top: 0;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+
+#boxes {
+    font-size: 35px;
+}
+.blogcl {
+    color: rgb(87, 142, 225);
+    font-weight: 700;
+}
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgb(87, 142, 225);
+    border-radius: 25px;
+    width: 25%;
+    height: 100px;
+    margin-left: 80px;
+}
+.pgheading {
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.pgtext {
+    padding: 2px;
+    font-size: 14px;
+    text-align: justify;
+}
+.buttonpg {
+    font-size: 15px;
+    background-color: rgb(87, 142, 225);
+    border-radius: 25px;
+    padding: 5px;
+    color: #ffffff;
+    margin-left: 245px;
+}
+.buttonpg a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.roundediconstext {
+    font-size: 35px;
+}
+.iconshead {
+    display: inline-block;
+}
+.roundedicons {
+    margin-left: 10px;
+    border-radius: 90px;
+    border: solid;
+    border-color: #252F3E;
+}
+.roundedicons img {
+    width: 130px;
+    height: 130px;
+    padding: 25px;
+}
+.iconstext {
+    font-size: 20px;
+
+}
+.mybookform {
+    margin-left: -850px;
+}
+.mybookform label {
+    color: #ffffff;
+    font-size: 18px;
+
+}
+.mybookform select {
+    font-size: 15px;
+}
+.mybookform input,
+p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.mybookform button a {
+    margin-left: 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#social {
+    background-color: rgb(87, 142, 225);
+    height: 100px;
+    padding: 10px;
+
+}
+#foot1 {
+    display: inline-block;
+    height: 200px;
+    width: 436px;
+    margin-left: 5px;
+    vertical-align: top;
+
+}
+.sbox {
+    display: inline-block;
+    vertical-align: top;
+
+}
+.sboxtext {
+    font-size: 35px;
+    font-style: italic;
+    color: #ffffff;
+    margin-right: 25px;
+}
+.sboxtext h1 {
+    font-family: Arthure;
+}
+.footermain {
+    height: 210px;
+    background-color: #D7DDD7;
+}
+.box1 {
+    color: rgb(2, 2, 2);
+    font-size: 25px;
+}
+.box1 a {
+    color: #252F3E;
+    text-decoration: none;
+    font-size: 18px;
+}
+.box2 {
+    font-size: 25px;
+}
+.box3 {
+    margin-left: 130px;
+}
+#footercenter {
+    text-align: center;
+    color: rgb(87, 142, 225);
+}
+#git {
+    display: inline;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: -1px;
+
+}
+#git a {
+    text-decoration: none;
+    color: rgb(0, 123, 255);
+}
+.footerend {
+    background-color: #252F3E;
+    margin-bottom: 0;
+}
+.btp {
+    margin-left: 350px;
+    margin-top: 40px;
+}
+#ab {
+    color: white;
+}
+#ba {
+    width: 400px;
+}
+#findtrain {
+    margin-left: 390px;
+}

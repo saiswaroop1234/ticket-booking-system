@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Eighty-Eight;
+    src: url('Eighty-Eight.ttf');
+}
+.maintain {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Minercraftory;
+    font-size: 35px;
+
+}
+body {
+    background-image: url("gitimages/orange.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+img {
+    border-radius: 400px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.names {
+    background-color: rgb(87, 142, 225);
+    color: white;
+    text-align: center;
+}
+#copyright {
+    background-color: rgb(87, 142, 225);
+    color: white;
+    margin-top: 220px;
+    text-align: center;
+}
+button {
+    background-color: rgb(87, 142, 225);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+a {
+    text-decoration: none;
+    color: white
+}
